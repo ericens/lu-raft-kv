@@ -7,11 +7,11 @@ import com.google.common.collect.Lists;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cn.think.in.java.entity.LogEntry;
-import cn.think.in.java.rpc.DefaultRpcClient;
-import cn.think.in.java.rpc.Request;
-import cn.think.in.java.rpc.Response;
-import cn.think.in.java.rpc.RpcClient;
+import raft.svrgroup.raft.entity.LogEntry;
+import raft.svrgroup.raft.rpc.DefaultRpcClient;
+import raft.svrgroup.raft.rpc.Request;
+import raft.svrgroup.raft.rpc.Response;
+import raft.svrgroup.raft.rpc.RpcClient;
 
 /**
  *
